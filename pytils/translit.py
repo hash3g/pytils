@@ -126,6 +126,16 @@ TRANSTABLE = (
         (u"8", u"8"),
         (u"9", u"9"),
         (u"0", u"0"),
+        
+        (u"ї", u"ji"),
+        (u"є", u"ye"),
+        (u"і", u"i"),
+        (u"ґ", u"g"),
+        
+        (u"Ї", u"Ji"),
+        (u"Є", u"Ye"),
+        (u"І", u"I"),
+        (u"Ґ", u"G")
         )  #: Translation table
 
 RU_ALPHABET = [x[0] for x in TRANSTABLE] #: Russian alphabet that we can translate
